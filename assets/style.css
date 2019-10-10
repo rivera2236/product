@@ -45,6 +45,15 @@
   content: "";
   background-color: rgba(255, 255, 255, .1);
   border-radius: 5px;
+  background-image: url(https://oyebesmartest.com/public/uploads/preview/-115517046115zdwazt1ia.jpg);
+}
+
+/* CREATED TO ASSIGN AN IMAGE TO THE WHITE PHONE, ELSE WHEN ASSIGNING THE BACKGROUND-IMAGE TO CLASS .PRODUCE-DEVICE::BEFORE, THE BACKGROUND IMAGE WOULD BE ASSIGNED TO BOTH PHONES. */
+.second-product-device::before {
+  background-image: url(https://i.pinimg.com/originals/11/36/9a/11369abd38b7ea46ccbcd429be21b400.jpg);
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 
 .product-device-2 {
